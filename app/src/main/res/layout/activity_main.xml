@@ -12,22 +12,22 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="60dp"
         android:text="@string/title"
-        android:textColor="#ffffff"
+        android:textColor="@android:color/holo_blue_light"
         android:textSize="40sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/image_coal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="61dp"
+        android:layout_below="@id/title"
         android:src="@drawable/coal" />
 </RelativeLayout>
